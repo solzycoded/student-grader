@@ -1,0 +1,215 @@
+[
+  {
+    "assignment_id": 4711,
+    "assignment_name": "Student/Teacher view OK - Name of Assignemnt JSON FORMAT 2022-05-10 @11:00",
+    "course_id": 4711,
+    "course_name": "Student/Teacher view OK - Course Name",
+    "assignment_url": "Student/Teacher view OK - https://url.directly.to/assignment_text",
+    "speedgrader_url": "https://url.directly.to/grading_interface",
+    "intro": "Student/Teacher view OK - Introduction text ",
+    "outro": "Student/Teacher view OK - Text included at the end of student feedback//Jill",
+    "questions": [
+      {
+        "position": 1,
+        "text": "Teacher view ONLY, NOT STUDENT!!! - Text for question. Teacher view only.",
+        "feedback": {
+          "F": {
+            "student": [
+              "Student/Teacher view OK. Cell has a light red background that spans 3 columns"
+            ],
+            "teacher": [
+              "Teacher view ONLY, NOT STUDENT!!!"
+            ]
+          },
+          "E": {
+            "student": [
+              "Student/Teacher view OK - In _first_ column of 3 columns. Description of criteria needed to get E grader on quetsion.",
+              "Another text for student feedback to be included in first of 3 column."
+            ],
+            "teacher": [
+              "Teacher view ONLY, NOT STUDENT!!! Standard text I can change for that student...just like the rest. NOTE: This might not be inluded for every grade criteria since I am looking to note standard problems here."
+            ]
+          },
+          "C": {
+            "student": [
+              "Student/Teacher view OK - In _second_ column of 3 columns. Description of criteria needed to get C grader on quetsion. NOTE:  Notice that there is no teacher criteria. I might add it later in the JSON if needed, otherwise I would put the info in extra_comments."
+            ]
+          },
+          "A": {
+            "student": [
+              "Student/Teacher view OK - In _third_ column of 3 columns. Description of criteria needed to get C grader on quetsion. Notice that there is no teacher criteria. I might add it later in the JSON if needed, otherwise I would put the info in extra_comments."
+            ]
+          },
+          "extra_comments": {
+            "teacher": [
+              "blah 1",
+              "blah 2"
+            ],
+            "student": [
+              "blah 1",
+              "blah 2"
+            ]
+          }
+        },
+        "feedforward": {
+          "student": {
+            "CtoA": "Student/Teacher view OK",
+            "EtoC": "Det är viktigt att du går in på mer detaljer.",
+            "all": "Här är resonemang väldigt viktigt."
+          },
+          "teacher": [
+            "Teacher view ONLY, NOT STUDENT!!!",
+            "blah 1",
+            "blah 2"
+          ]
+        },
+        "extra_comments": {
+          "teacher": [
+            "Teacher view ONLY, NOT STUDENT!!!",
+            "blah 1",
+            "blah 2"
+          ],
+          "student": [
+            "Student/Teacher view OK",
+            "blah 1",
+            "blah 2"
+          ]
+        }
+      },
+      {
+        "position": 2,
+        "text": "2: Teacher view ONLY, NOT STUDENT!!! - Text for question. Teacher view only.",
+        "feedback": {
+          "F": {
+            "student": [
+              "Student/Teacher view OK. Cell has a light red background that spans 3 columns"
+            ],
+            "teacher": [
+              "Teacher view ONLY, NOT STUDENT!!!"
+            ]
+          },
+          "E": {
+            "student": [
+              "Student/Teacher view OK - In _first_ column of 3 columns. Description of criteria needed to get E grader on quetsion.",
+              "Another text for student feedback to be included in first of 3 column."
+            ],
+            "teacher": [
+              "Teacher view ONLY, NOT STUDENT!!! Standard text I can change for that student...just like the rest. NOTE: This might not be inluded for every grade criteria since I am looking to note standard problems here."
+            ]
+          },
+          "C": {
+            "student": [
+              "Student/Teacher view OK - In _second_ column of 3 columns. Description of criteria needed to get C grader on quetsion. NOTE:  Notice that there is no teacher criteria. I might add it later in the JSON if needed, otherwise I would put the info in extra_comments."
+            ]
+          },
+          "A": {
+            "student": [
+              "Student/Teacher view OK - In _third_ column of 3 columns. Description of criteria needed to get C grader on quetsion. Notice that there is no teacher criteria. I might add it later in the JSON if needed, otherwise I would put the info in extra_comments."
+            ]
+          },
+          "extra_comments": {
+            "teacher": [
+              "blah 1",
+              "blah 2"
+            ],
+            "student": [
+              "blah 1",
+              "blah 2"
+            ]
+          }
+        },
+        "feedforward": {
+          "student": {
+            "CtoA": "Student/Teacher view OK",
+            "EtoC": "Det är viktigt att du går in på mer detaljer.",
+            "all": "Här är resonemang väldigt viktigt."
+          },
+          "teacher": [
+            "Teacher view ONLY, NOT STUDENT!!!",
+            "blah 1",
+            "blah 2"
+          ]
+        },
+        "extra_comments": {
+          "teacher": [
+            "Teacher view ONLY, NOT STUDENT!!!",
+            "blah 1",
+            "blah 2"
+          ],
+          "student": [
+            "Student/Teacher view OK",
+            "blah 1",
+            "blah 2"
+          ]
+        }
+      },
+      {
+        "position": 3,
+        "text": "3: Teacher view ONLY, NOT STUDENT!!! - Text for question. Teacher view only.",
+        "feedback": {
+          "F": {
+            "student": [
+              "Student/Teacher view OK. Cell has a light red background that spans 3 columns"
+            ],
+            "teacher": [
+              "Teacher view ONLY, NOT STUDENT!!!"
+            ]
+          },
+          "E": {
+            "student": [
+              "Student/Teacher view OK - In _first_ column of 3 columns. Description of criteria needed to get E grader on quetsion.",
+              "Another text for student feedback to be included in first of 3 column."
+            ],
+            "teacher": [
+              "Teacher view ONLY, NOT STUDENT!!! Standard text I can change for that student...just like the rest. NOTE: This might not be inluded for every grade criteria since I am looking to note standard problems here."
+            ]
+          },
+          "C": {
+            "student": [
+              "Student/Teacher view OK - In _second_ column of 3 columns. Description of criteria needed to get C grader on quetsion. NOTE:  Notice that there is no teacher criteria. I might add it later in the JSON if needed, otherwise I would put the info in extra_comments."
+            ]
+          },
+          "A": {
+            "student": [
+              "Student/Teacher view OK - In _third_ column of 3 columns. Description of criteria needed to get C grader on quetsion. Notice that there is no teacher criteria. I might add it later in the JSON if needed, otherwise I would put the info in extra_comments."
+            ]
+          },
+          "extra_comments": {
+            "teacher": [
+              "blah 1",
+              "blah 2"
+            ],
+            "student": [
+              "blah 1",
+              "blah 2"
+            ]
+          }
+        },
+        "feedforward": {
+          "student": {
+            "CtoA": "Student/Teacher view OK",
+            "EtoC": "Det är viktigt att du går in på mer detaljer.",
+            "all": "Här är resonemang väldigt viktigt."
+          },
+          "teacher": [
+            "Teacher view ONLY, NOT STUDENT!!!",
+            "blah 1",
+            "blah 2"
+          ]
+        },
+        "extra_comments": {
+          "teacher": [
+            "Teacher view ONLY, NOT STUDENT!!!",
+            "blah 1",
+            "blah 2"
+          ],
+          "student": [
+            "Student/Teacher view OK",
+            "blah 1",
+            "blah 2"
+          ]
+        }
+      }
+    ]
+  }
+]
